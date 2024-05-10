@@ -22,7 +22,7 @@ class A {
 }
 
 class B {
-    synchronized void bar(A a) {
+    s
         String name = Thread.currentThread().getName();
         System.out.println(name + "entered B.bar");
 
